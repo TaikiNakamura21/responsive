@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Sample Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .box {
+      background-color: skyblue;
+      padding: 30px;
+      border-radius: 10px;
+      font-size: 24px;
+    }
+    @media screen and (max-width: 480px) {
+      body {
+        background-color: lightyellow;
+      }
+      .box {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>レスポンシブページ</h1>
+  <div class="box">画面の大きさで色と文字サイズが変わるよ！</div>
+</body>
+</html>
